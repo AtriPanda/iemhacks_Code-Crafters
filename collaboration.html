@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Music Collaboration</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Music Collaboration Platform</h1>
+    <button id="logout">Logout</button>
+  </header>
+  <main>
+    <section class="music-form">
+      <h2>Add Music</h2>
+      <input type="text" id="track-name" placeholder="Track Name" required>
+      <input type="file" id="audio-file" accept="audio/*" required>
+      <button id="upload">Upload</button>
+    </section>
+    <section class="music-list">
+      <h2>Collaboration Tracks</h2>
+      <ul id="tracks"></ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
